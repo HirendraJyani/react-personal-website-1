@@ -1,0 +1,133 @@
+.navbr{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 30px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-evenly;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+
+
+.nav__black {
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav__logo {
+    /* position: fixed;
+    left: 11.5%; */
+    margin-left: 10%;
+    margin-right: 35%;
+    width: 80px;
+    object-fit: contain;
+    color: white;
+}
+
+.nav__logoBlack {
+    /* position: fixed;
+    left: 11.5%; */
+    margin-left:10%;
+    margin-right: 35%;
+    width: 80px;
+    object-fit: contain;
+    color: black;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    
+    display: none;
+    /* margin-left: 40%; */
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+.hamburger_black {
+    color: black;
+    
+}
+
+.nav__components {
+    /* position: fixed; */
+    display: flex;
+    margin-right: 11.5%;
+    /* width:90px; */
+    object-fit: contain;
+    color: #fff;
+    
+}
+
+
+.list_components {
+    display: none;
+    flex-direction: column;
+    width: 300px;
+    height:240px;
+    padding-left: 20px;
+    background-color: rgb(24, 22, 22);
+    position: absolute;
+    top: 68px;
+    right: 11.5%;
+    letter-spacing: 2px;
+    line-height: 3;
+    z-index: 60;
+}
+
+.nav_link {
+    color: white;
+    margin-left: 30px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.nav_link_black {
+    color: black;
+}
+
+
+.list_link {
+    color: white;
+    /* margin-left: 30px; */
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.list_link_black {
+    color: #fff;
+}
+
+
+/* a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: bold;
+  } */
+
+  @media screen and (max-width: 900px) {
+      .nav__components{
+          display: none;
+      }
+      .hamburger {
+          display: block;
+      }
+      .list_components{
+          display: flex;
+          flex-direction: column;
+      }
+  }

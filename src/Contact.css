@@ -1,0 +1,78 @@
+.contact {
+    display: flex;
+    margin-left: 11.5%;
+    margin-right: 11.5%;
+}
+
+.contact_message {
+    flex: 0.5;
+    margin-right: 10px;
+}
+
+.contact_info {
+    flex: 0.5;
+    margin-left: 10px;
+}
+
+.contact_message > h1, .contact_info >h1 {
+    margin-bottom: 40px;
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.contact_message > h3, .contact_details_info >h3{
+    font-weight: 400;
+}
+
+.contact_message > p, .contact_info >p{
+    line-height: 1.8;
+    color: lightgrey;
+}
+
+.contact__button {
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border:none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    margin-top: 30px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(25, 100, 110, 0.5);
+}
+
+.contact__button:hover {
+    color: black;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
+
+.contact_details {
+    display: flex;
+    align-items: center;
+}
+
+.contact_details_info {
+    flex: 0.8;
+}
+
+.contact_icons {
+    flex: 0.2;
+    color:rgb(179, 189, 45);
+}
+
+@media screen and (max-width: 900px) {
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact_info {
+        margin-top: 70px;
+        margin-left: 0;
+    }
+}

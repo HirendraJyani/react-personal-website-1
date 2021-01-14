@@ -1,0 +1,119 @@
+.project {
+    text-align: center;
+}
+
+.project > h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.project > p {
+    margin-bottom: 70px;
+    color: lightgrey;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project_imgs{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project_img {
+    display: block;
+    width: 500px;
+    height: 300px;
+
+}
+
+.myproject_links{
+    color: white;
+    margin-top: 20px;
+}
+
+.myproject_links:hover{
+    color: rgb(80, 121, 255);
+}
+
+.cards {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    
+    margin-bottom: 70px;
+    margin-left: 3%;
+    margin-right: 3%;
+    transition: transform 450ms;
+    object-fit: contain;
+}
+
+.cards:hover .card{
+    width: 500px;
+    /* transform: scale(1.08); */
+}
+
+.cards_large{
+    max-height: 400px;
+}
+.cards_large:hover {
+    transform: scale(1.08);
+}
+
+.card {
+    width: 0px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.897);
+    position: absolute;
+    top: 0;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* transition: 0.7s ease; */
+}
+
+
+.card > p {
+    margin: 20px 40px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .project > p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .project_imgs{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .project_img {
+        display: block;
+        width: 400px;
+        height: 200px;
+    
+    }
+
+    .cards {
+        width: 400px;
+        height: 200px;
+    }
+
+    .cards:hover .card{
+        width: 400px;
+    }
+
+    .cards_large{
+        max-height: 300px;
+    }
+    
+    .card {
+        width: 0px;
+        height: 200px;
+    }
+    
+}

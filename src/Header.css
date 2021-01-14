@@ -1,0 +1,102 @@
+.header {
+    color: #fff;
+    object-fit: contain;
+    background-position: center center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    height: 100vh;
+}
+
+
+
+.header__contents {
+    margin-left: 11.5%;
+    padding-top: 350px;
+    height: 190px;
+    position: relative;
+    z-index: 50;
+  }
+  
+  .header__title {
+    font-size: 4rem;
+      font-weight: 700;
+      letter-spacing: 10px;
+  }
+
+  .header__button {
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border:none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    margin-top: 30px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.header__button:hover {
+    color: black;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
+
+.header__fade {
+    position: relative;
+    bottom: 600px;
+    z-index: 1;
+    height: 47rem;
+    background-image:linear-gradient(to left,
+        
+        transparent,
+        rgba(37, 37, 37, 0),
+        rgba(17, 17, 17, 0.623)
+    ) ;
+}
+
+.slider {
+    height: 50px;
+    overflow: hidden;
+}
+.slider > p {
+    height: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+}
+
+.slider_text1 {
+color: white;
+animation: slide 7s linear infinite;
+}
+
+
+.slider_text2 {
+    color: white;
+}
+
+.slider_text3 {
+    color: white;
+}
+
+@keyframes slide {
+    0% {margin-top:-300px;}
+    5% {margin-top:-200px;}
+    33% {margin-top:-200px;}
+    38% {margin-top:-100px;}
+    66% {margin-top:-100px;}
+    71% {margin-top:0px;}
+    100% {margin-top:0px;}
+}
+
+
+@media screen and (max-width: 900px) {
+    .header__title {
+        font-size: 3rem;
+          font-weight: 600;
+          letter-spacing: 3px;
+      }
+}

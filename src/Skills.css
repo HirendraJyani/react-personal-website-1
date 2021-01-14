@@ -1,0 +1,52 @@
+.skills {
+    font-family: sans-serif;
+    text-align: center;
+    /* background-color: #e8eae6; */
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0;
+  }
+
+  .skills > h1 {
+    font-size: 50px;
+    font-weight: 540;
+    letter-spacing: 3px;
+  }
+
+  .skills_heading {
+      margin-bottom: 40px;
+      color: lightgrey;
+  }
+  /* b9ac92 */
+  
+  .devicon {
+    width: 5em;
+  
+  }
+  
+  .lang, .tools{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .lang_items {
+    margin: 25px 7%;
+  }
+  
+
+  @media screen and (max-width: 900px) {
+    .lang_items {
+      margin: 25px 7%;
+    }
+    .skills {
+      padding-left: 10px;
+    padding-right: 10px;
+    }
+    .skills_heading {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+  }
