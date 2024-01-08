@@ -206,7 +206,7 @@ function Skills() {
             </g>
           </svg>
           <p>Express</p> */}
-          <img className="devicon" src="./images/nextjs.svg" alt="nextjs" />
+          <img className="devicon" src="./images/nextjs.svg" alt="Nextjs" />
           <p>Nextjs</p>
         </div>
 
