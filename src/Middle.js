@@ -13,7 +13,7 @@ function Middle() {
     <div className="middle_screen" data-aos={"zoom-in"}>
       <div id="about" className="middle">
         <div className="my_profile">
-          <img className="my_pic" src="./images/profile-pic.png" alt="MyPic" />
+          <img className="my_pic" src="./images/Hirendra.jpg" alt="MyPic" />
         </div>
         <div className="about_me">
           <h1>
@@ -22,11 +22,10 @@ function Middle() {
           </h1>{" "}
           <br />
           <p>
-            Graduate of computer science with 2.5 years of experience working
+            Graduate of computer science with 4 years of experience working
             across Frontend and Backend web development. I love spending time on
-            fixing little details and optimizing web apps. Also I like working
-            in a team. I’m looking for a role where I can grow and learn from
-            other experienced team members.
+            fixing little details and optimizing web apps. I’m looking for a
+            role where I can grow and learn from other experienced team members.
           </p>
           <br />
           <h3>Let's build something cool</h3>

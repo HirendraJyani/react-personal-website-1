@@ -35,7 +35,10 @@ function Footer() {
       </div>
       <br />
       <div className="footer_message">
-        <p>Copyright - 2024 Hirendra Jat, All Right Reserved</p>
+        <p>
+          Copyright - {new Date().getFullYear()} Hirendra Jat, All Right
+          Reserved
+        </p>
       </div>
     </div>
   );
